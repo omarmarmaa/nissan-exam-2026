@@ -5,13 +5,13 @@ import java.util.Objects;
 
 public class VehicleMemLocalDataSource {
 
-    private ArrayList<Vehicle> storage = new ArrayList<>();
+    private ArrayList<VehicleData> storage = new ArrayList<>();
 
-    public ArrayList<Vehicle> findAll() {
+    public ArrayList<VehicleData> findAll() {
         return storage;
     }
 
-    public void save(Vehicle vehicle) {
+    public void save(VehicleData vehicle) {
         storage.add(vehicle);
     }
 

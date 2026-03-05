@@ -1,6 +1,6 @@
 package java.edu.iesam.features.data;
 
-public class Vehicle {
+public class VehicleData {
     private String id;
 
     public String getId() {
