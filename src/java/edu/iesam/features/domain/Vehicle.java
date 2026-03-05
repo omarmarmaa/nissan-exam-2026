@@ -6,6 +6,8 @@ public class Vehicle {
     String year;
     String id;
 
+
+
     public Vehicle(String name, String model, String year, String id) {
         this.name = name;
         this.model = model;
@@ -44,5 +46,14 @@ public class Vehicle {
 
     public void setId(String id) {
         this.id = id;
+    }
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", model='" + model + '\'' +
+                ", year='" + year + '\'' +
+                ", id='" + id + '\'' +
+                '}';
     }
 }
